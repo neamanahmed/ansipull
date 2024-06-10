@@ -1,6 +1,7 @@
 ---
 - name: Deploy Nginx
   hosts: localhost
+  connection: local
   tasks:
 
     - name: Install NGINX
